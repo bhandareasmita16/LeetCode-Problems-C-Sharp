@@ -4,6 +4,8 @@
 using LeetCode_Problems.Common;
 using LeetCode_Problems.Problems;
 
+/*
+ 
 AddTwoNumbers solution = new AddTwoNumbers();
 
 // Create two linked lists
@@ -13,3 +15,7 @@ ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4))); // 465
 // Call AddTwoNumbers
 ListNode result = solution.AddTwoNumber(l1, l2);
 solution.PrintList(result);
+*/
+
+LongestSubstring longestSubstring = new LongestSubstring();
+Console.WriteLine(longestSubstring.LengthOfLongestSubstring("adbjglaopn"));
